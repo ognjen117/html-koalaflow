@@ -1,0 +1,125 @@
+body{
+    background-color: #F1F1F1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container img{
+    height: 65px;
+    width: 140px;
+    align-self: left;
+}
+.container {
+    padding: 10px;
+    background-color: #C7B7A3;
+    gap: 10px;
+    display: flex;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbtn {
+    background-color: #C7B7A3;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#EADBC8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+a:link {
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.dropbtn a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color:#B5C18E;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #B5C18E;}
+
+.dropbtn a:hover {background-color:#B5C18E;}
+
+.tata{
+    display: flex;
+    flex-wrap:wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dete{
+
+    padding-top: 50px;
+}
+
+p{
+    text-align: center;
+}
+
+.footer img{
+    height: 40px;
+    width: 70px;
+    float: left;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #B5C18E;
+    color: white;
+    text-align: right;
+ }
+
+ .dugme{
+    position: fixed;
+    left: 770px;
+    top: 720px;
+    padding: 16px;
+    justify-self: center;
+    background-color: #B5C18E;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+  }

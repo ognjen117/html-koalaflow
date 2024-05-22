@@ -1,0 +1,179 @@
+body{
+    background-color: #F1F1F1;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.container img{
+    height: 65px;
+    width: 140px;
+    align-self: left;
+}
+.container {
+    padding: 10px;
+    background-color: #C7B7A3;
+    gap: 10px;
+    display: flex;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbtn {
+    background-color: #C7B7A3;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#EADBC8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+a:link {
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    font-size: 16px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.dropbtn a{
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color:#B5C18E;}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: #B5C18E;}
+
+.dropbtn a:hover {background-color:#B5C18E;}
+
+  .main {
+    flex: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 30px;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .tile-image{
+    height: 200px;
+    float: left;
+    margin-right: 40px;
+    border-radius: 15px;
+    width: 350px;
+  }
+  
+  .card{
+    width: 47%;
+    background-color: #EADBC8;
+    border-radius: 15px;
+    margin-right: 20px;
+  }
+  
+  .left{
+    float: left;
+  }
+  
+  .right{
+    float: right;
+  }
+
+  .card-text{
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  @media (max-width:680px){
+    .card{
+      display: block;
+      width: 100%;
+    }
+    .tile-image{
+      width: 100%;
+      margin-bottom: 20px;
+      object-fit: cover;
+      display: inline;
+     
+    }
+    h1{
+      font-size: 3.5rem;
+      text-align: center;
+    }
+    .logo{
+      width: 100px;
+    }
+    .card-text{
+      text-align: justify;
+      margin-bottom: 30px;
+    }
+    .card-title{
+      text-align: center;
+    }
+  }
+
+  .footer img{
+    height: 40px;
+    width: 70px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C7B7A3;
+    color: white;
+    text-align: right;
+ }
+
+ .dugme{
+  position: fixed;
+  left: 770px;
+  top: 820px;
+  padding: 16px;
+  justify-self: center;
+  background-color: #B5C18E;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+}

@@ -1,0 +1,90 @@
+body{
+    background-color:firebrick;
+    color: aliceblue;
+}
+
+#logo{
+    background-color: aliceblue;
+    border: dotted palevioletred 5px;
+    padding: 10px;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: brown;
+}
+
+img{
+    width: 280px;
+    height: 170px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#arena{
+    background-color:cornflowerblue;
+    border: double orange 5px;
+    padding: 10px;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#trener {
+    background-color:cadetblue;
+    border: dotted royalblue 5px;
+    padding: 10px;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    text-align: right;
+}
+#postavka{
+    display: flex;
+    gap: 20px;
+}
+.button {
+    border: solid cornflowerblue 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: brown;
+  }
+
+#roster{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+}
+#imgroster{
+    width: 600px;
+    height: 400px;
+}
+
+footer img{
+    height: 40px;
+    width: 70px;
+    float: left;
+}
